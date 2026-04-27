@@ -11,7 +11,7 @@ window.InviteI18n = (() => {
       date_month: "Agosto",
       date_dow: "Sabado",
       date_hour: "14:30 Hrs.",
-      date_ceremony: "Ceremonia Religiosa - Templo",
+      date_ceremony: "Ceremonia Religiosa",
       date_address: "Av. Juan de la Rosa casi Beijing - Cochabamba",
       program_label: "El dia",
       program_title: "Programa",
@@ -49,7 +49,7 @@ window.InviteI18n = (() => {
       rsvp_daniel_href: "https://wa.me/59176446293?text=Hola%20Daniel!%20Confirmo%20mi%20asistencia%20a%20tu%20boda%20el%2015%20de%20agosto",
       photo_title: "Un recuerdo nuestro",
       photo_alt: "Acuarela de Adriana y Daniel",
-      footer_date: "Sabado - 15 de Agosto - Cochabamba, Bolivia"
+      footer_date: "Sabado - 15 de Agosto"
     },
     en: {
       meta_title: "Adriana & Daniel - August 15",
