@@ -133,7 +133,7 @@
   .date-ceremony { 
     font-family: 'Cinzel', serif;
     margin-top:22px; font-size:clamp(.95rem,2.5vw,1.2rem); color:var(--brown-light); }
-  .date-church { font-family:'Italianno',serif; font-size:clamp(2rem,6vw,3rem); color:var(--brown); margin-top:6px; display:block; }
+  .date-church { font-family:'Italianno',serif; font-size:clamp(1.6rem,6vw,3rem); color:var(--brown); margin-top:6px; display:block; }
   .date-address { 
     font-family: 'Cinzel', serif;
     font-size:.72rem; letter-spacing:.18em; text-transform:uppercase; color:var(--gold); margin-top:6px; }
@@ -323,7 +323,7 @@
     .hero-script { font-size:clamp(2.25rem,16vw,3rem); }
     .hero-names { font-size:clamp(1.8rem,10vw,2.3rem); letter-spacing:.06em; }
     .hero-blessing, .date-address, .section-label { letter-spacing:.16em; }
-    .date-church { font-size:clamp(2.1rem,12vw,2.7rem); }
+    .date-church { font-size:clamp(1.7rem,12vw,2.7rem); }
     .hero-parent-title { letter-spacing:.16em; }
     .footer-names { font-size:2.1rem; }
   }
