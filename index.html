@@ -226,7 +226,13 @@ display=swap" rel="stylesheet">
   <p class="footer-date">Sábado · 15 de Agosto · Cochabamba, Bolivia</p>
 </div>
 
+<script src="i18n/translations.js"></script>
 <script>
+  if (window.InviteI18n) {
+    const lang = InviteI18n.resolveLanguage();
+    InviteI18n.apply(lang);
+  }
+
   const obs = new IntersectionObserver(entries => {
     entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
   }, {threshold:.1});
