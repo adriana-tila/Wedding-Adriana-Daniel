@@ -100,7 +100,7 @@ window.InviteI18n = (() => {
       rsvp_daniel_href: "https://wa.me/59176446293?text=Hi%20Daniel!%20I%20would%20love%20to%20confirm%20my%20attendance%20for%20your%20wedding%20on%20August%2015",
       photo_title: "A memory of us",
       photo_alt: "Watercolor portrait of Adriana and Daniel",
-      footer_date: "Saturday - August 15 - Cochabamba, Bolivia"
+      footer_date: "Saturday - August 15"
     }
   };
 
