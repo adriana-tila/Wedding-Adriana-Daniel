@@ -3,7 +3,7 @@
     --white: #FFFFFF;
     --brown: #3A2A1E;
     --brown-light: #6B4F3A;
-    --gold: #C4956A;
+    --gold: #8f592d;
     --gold-light: #E8C9A8;
     --green: #5D7A4E;
     --border: rgba(196,149,106,0.3);
@@ -56,28 +56,32 @@
     font-weight:300; letter-spacing:.1em; color:var(--brown); line-height:1;
     animation:fadeUp 1.2s .1s ease both;
   }
-  .hero-ampersand {
+  .hero-ampersand span{
     font-family:'Cinzel',serif;
+    font-style: bold;
     color:var(--gold);
   }
   .hero-quote {
     font-family:'Italianno',serif;
-    font-size:clamp(1rem,2.5vw,1.25rem); color:var(--brown-light);
-    margin:18px auto 28px; max-width:400px; line-height:1.7;
+    font-size:clamp(1.8rem,2.5vw,1.25rem); color:var(--brown-light);
+    margin:18px auto 28px; max-width:400px;
     animation:fadeUp 1.4s .3s ease both;
   }
   .hero-blessing {
-      font-family:'Cinzel',serif;
+    font-family:'Cinzel',serif;
+    font-style: bold;
     font-size:.72rem; letter-spacing:.22em; text-transform:uppercase;
     color:var(--gold); margin:24px 0 12px;
     animation:fadeUp 1.4s .5s ease both;
   }
   .hero-parents {
-    display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px;
+    display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); 
+    gap:14px;
     margin-bottom:28px; animation:fadeUp 1.4s .6s ease both;
   }
   .hero-parent-group {
     background:rgba(253,250,245,.82);
+    font-size: 1.7rem;
     padding:14px 18px; display:grid; gap:6px; min-width:0;
   }
   .hero-parent-title {
@@ -163,7 +167,7 @@
   .tl-time { font-family:'Cormorant Garamond',serif; font-size:1.55rem; font-weight:300; color:var(--gold); line-height:1; }
   .tl-event { 
     font-family:'Italianno',serif;
-    font-size:1.3rem; letter-spacing:.12em;
+    font-size:1.6rem; letter-spacing:.12em;
     font-style: bold; color:var(--brown); margin-top:3px; }
 
   /* LOCATIONS */
@@ -176,10 +180,10 @@
   .loc-type { 
     font-family:'Cinzel',serif;
     font-size:.64rem; letter-spacing:.24em; text-transform:uppercase; color:var(--gold); margin-bottom:12px; }
-  .loc-name { font-family:'Allura',serif; font-style:italic; font-size:1.45rem; color:var(--brown); margin-bottom:10px; line-height:1.3; }
+  .loc-name { font-family:'Allura',serif; font-size:1.70rem; color:var(--brown); margin-bottom:10px; line-height:1.3; }
   .loc-address { 
     font-family:'Cinzel',serif;
-    font-size:.8rem; color:var(--brown-light); line-height:1.65; margin-bottom:20px; }
+    font-size:.95rem; color:var(--brown-light); line-height:1.65; margin-bottom:20px; }
   .btn-map {
     display:inline-flex; align-items:center; gap:8px;
     background:transparent; border:1px solid var(--gold); color:var(--gold);
@@ -194,7 +198,7 @@
   .info-card { background:var(--white); border:1px solid var(--border); padding:28px 20px; text-align:center; border-radius:2px; }
   .info-card-icon { width:60px; height:60px; object-fit:contain; margin:0 auto 14px; display:block; }
   .info-card-title { font-family:'Cinzel',serif; font-size:1.25rem; color:var(--brown); margin-bottom:10px; }
-  .info-card-text { font-family:'Cinzel',serif; font-size:.81rem; color:var(--brown-light); line-height:1.75; }
+  .info-card-text { font-family:'Cinzel',serif; font-size:0.95rem; color:var(--brown-light); line-height:1.75; }
 
   /* RSVP */
   .rsvp-section {
@@ -225,8 +229,8 @@
   }
   .btn-form:hover { background:var(--cream); color:var(--brown); opacity:1; }
   .rsvp-alt {
-    font-family:'Cormorant Garamond',serif; font-style:italic;
-    font-size:1.1rem; color:rgba(253,250,245,.78); margin:-6px 0 24px;
+    font-family:'Cinzel',serif;
+    font-size:.8rem; color:rgba(253,250,245,.78); margin:-6px 0 24px;
   }
   .rsvp-note {
     font-family:'Cinzel',serif; font-size:.72rem;
@@ -278,7 +282,7 @@
     .hero-blessing { letter-spacing:.18em; }
     .hero-parents { grid-template-columns:1fr; gap:10px; margin-bottom:22px; }
     .hero-parent-group { padding:13px 16px; }
-    .hero-parent-group span { font-size:1.1rem; }
+    .hero-parent-group span { font-size:1.6rem; }
     .scroll-hint { bottom:18px; }
 
     .date-band { padding:56px 20px; }
