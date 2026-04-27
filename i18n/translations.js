@@ -11,7 +11,7 @@ window.InviteI18n = (() => {
       date_month: "Agosto",
       date_dow: "Sabado",
       date_hour: "14:30 Hrs.",
-      date_ceremony: "Ceremonia Religiosa - Iglesia",
+      date_ceremony: "Ceremonia Religiosa - Templo",
       date_address: "Av. Juan de la Rosa casi Beijing - Cochabamba",
       program_label: "El dia",
       program_title: "Programa",
